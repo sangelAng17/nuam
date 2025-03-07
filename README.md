@@ -64,7 +64,7 @@ Se evaluará lo siguiente:
  - Postgress
 
 # Instalacion
-Clonar el repositorio de https://github.com/sangelAng17/pruebaTecnica.git
+Clonar el repositorio de [https://github.com/sangelAng17/pruebaTecnica.git](https://github.com/sangelAng17/nuam.git)
 
 # DLL DATABASE
 
