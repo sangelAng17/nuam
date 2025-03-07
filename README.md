@@ -54,3 +54,72 @@ Se evaluará lo siguiente:
 7. Documentación del código.
 8. Solución de un error en el código proporcionado.
 9. Sugerencia al código proporcionado.
+
+
+# Requisitos
+
+ - openjdk version "17.0.2" 2022-01-18
+ - OpenJDK Runtime Environment (build 17.0.2+8-86)
+ - OpenJDK 64-Bit Server VM (build 17.0.2+8-86, mixed mode, sharing)
+ - Postgress
+
+# Instalacion
+Clonar el repositorio de https://github.com/sangelAng17/pruebaTecnica.git
+
+# DLL DATABASE
+
+```SQL
+  
+ -- DROP SCHEMA nuam;
+
+CREATE SCHEMA nuam AUTHORIZATION postgres;
+
+-- Drop table
+
+-- DROP TABLE nuam.company;
+
+CREATE TABLE nuam.company (
+	nit int8 NULL,
+	"name" varchar NULL,
+	id serial4 NOT NULL
+);
+
+-- Drop table
+
+-- DROP TABLE nuam.stockexchange;
+
+CREATE TABLE nuam.stockexchange (
+	idcompany int8 NULL,
+	stock int8 NULL,
+	available int8 NULL,
+	prices varchar NULL,
+	currency varchar NULL,
+	id serial4 NOT NULL
+);
+
+-- Drop table
+
+-- DROP TABLE nuam.transactions;
+
+CREATE TABLE nuam.transactions (
+	id_user int8 NULL,
+	id_stockexchange int8 NULL,
+	amount int8 NULL,
+	date_transaction date NULL,
+	type_transaction varchar NULL,
+	id serial4 NOT NULL
+);
+
+-- Drop table
+
+-- DROP TABLE nuam.usern;
+
+CREATE TABLE nuam.usern (
+	first_name varchar(255) NULL,
+	second_name varchar(255) NULL,
+	type_document varchar(255) NULL,
+	"document" varchar(255) NULL,
+	id serial4 NOT NULL
+);
+
+```
