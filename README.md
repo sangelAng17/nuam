@@ -4,26 +4,8 @@
 # Desafio
 
 <p>
- Prueba de conocimientos en Java
-
-## 1. Ejercicio Práctico de Programación Orientada a Objetos en Java
-
-Se requiere un sistema para una biblioteca. Se deben modelar las clases necesarias para gestionar los diferentes tipos de recursos que tiene la biblioteca, como libros y revistas. Se debe aplicar los conceptos de programación orientada a objetos en este escenario.Define una clase Recurso que debe tener los siguientes atributos privados:
-
-* id (int): identificador único del recurso.
-* titulo (String): título del recurso.
-* disponible (boolean): indica si el recurso está disponible para préstamo
-
-La clase debe tener un constructor para inicializar estos atributos y los métodos públicos para
-acceder a ellos. Define las clases Libro y Revista:
-
-* Ambas clases deben heredar de la clase Recurso.
-* La clase Libro debe tener un atributo adicional: autor (String): autor del libro.
-* La clase Revista debe tener un atributo adicional: numero (int): número de la revista.
-* La clase Revista debe tener un atributo adicional: tipo (tipoRevista): define el tipo derevista (mínimo 5) y deben ser definidos por un enumerado.
-* Cada clase debe tener su propio constructor para inicializar sus atributos y sobrescribir el método toString() para proporcionar una representación de cadena adecuada del objeto.
-
 PRUEBA TÉCNICA DEV JAVA
+
 ## 1. Contexto
 La Bolsa de Valores de Colombia requiere sus servicios para desarrollar una API Rest para su sistema
 de mercado de valores. Hoy en día ya existen 2 APIs que permiten crear, consultar, actualizar y
