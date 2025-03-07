@@ -66,7 +66,7 @@ Se evaluará lo siguiente:
 # Instalacion
 Clonar el repositorio de [https://github.com/sangelAng17/pruebaTecnica.git](https://github.com/sangelAng17/nuam.git)
 
-# DIAGRAME ENTIDAD RELACION 
+# DIAGRAMA ENTIDAD RELACION 
 
 ![image](https://github.com/user-attachments/assets/700d933f-af63-4df0-85a3-63fe9e35ce83)
 
